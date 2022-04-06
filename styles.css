@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: rgb(253, 213, 156);
+    font-family: roboto;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 900px;
+    height: 500px;
+    margin: 4rem 15rem;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    background-color: rgb(62, 62, 78);
+    height: 500px;
+    padding: 4rem 2rem 2rem;
+}
+
+header {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.sub {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.line-1 {
+    width: 50px;
+    height: 3px;
+    background-color: tomato;
+}
+
+.avatar {
+    display: flex;
+    color: white;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.profile {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 1px 4px 5px 2px rgba(18,17,17,0.75);
+}
+
+
+.part-2 {
+    width: 550px;
+    background-color: white;
+    padding: 4rem 2rem 2rem;
+}
+
+.article {
+    font-size: 18px;
+    line-height: 1.5rem;
+    color: rgb(44, 43, 43);
+}
+
+.tee {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.line-2 {
+    height: 4px;
+    width: 550px;
+    background-color: rgb(240, 240, 248);
+    margin-left: -2rem;
+    margin-top: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.time {
+    font-weight: bolder;
+    /* font-size: 12px; */
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.comm {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: gray;
+    font-size: 14px;
+}
+
+.comment {
+    height: 20px;
+    width: 20px;
+}
